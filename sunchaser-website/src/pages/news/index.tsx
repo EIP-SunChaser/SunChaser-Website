@@ -4,7 +4,7 @@ function News() {
     return (
         <div>
             <HeaderBar />
-            <a>News page</a>
+            <p>News page</p>
         </div>
     )
 }

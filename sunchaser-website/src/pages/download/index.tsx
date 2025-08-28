@@ -4,7 +4,7 @@ function Download() {
     return (
         <div>
             <HeaderBar />
-            <a>Download page</a>
+            <p>Download page</p>
         </div>
     )
 }

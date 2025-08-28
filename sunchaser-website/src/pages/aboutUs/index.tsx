@@ -4,7 +4,7 @@ function AboutUs() {
     return (
         <div>
             <HeaderBar />
-            <a>About us page</a>
+            <p>About us page</p>
         </div>
     )
 }
