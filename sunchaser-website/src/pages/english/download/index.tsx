@@ -1,4 +1,4 @@
-import HeaderBar from '../../components/headerBar.tsx'
+import HeaderBar from '../../../components/headerBar.tsx'
 
 function Download() {
     return (

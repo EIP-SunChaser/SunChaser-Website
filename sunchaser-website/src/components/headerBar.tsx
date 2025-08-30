@@ -4,19 +4,19 @@ function HeaderBar() {
     return (
         <div className="flex justify-between bg-gray-800">
             <div className="flex items-center">
-                <Link to={"/"}>
+                <Link to={"/en/home"}>
                     <p className="text-3xl py-2 px-3">SunChaser</p>
                 </Link>
-                <Link to={"/"}>
+                <Link to={"/en/home"}>
                     <p className="text-xl py-2 px-3">Home</p>
                 </Link>
-                <Link to={"/news"}>
+                <Link to={"/en/news"}>
                     <p className="text-xl py-2 px-3">News</p>
                 </Link>
-                <Link to={"/download"}>
+                <Link to={"/en/download"}>
                     <p className="text-xl py-2 px-3">Downloads</p>
                 </Link>
-                <Link to={"/aboutus"}>
+                <Link to={"/en/aboutus"}>
                     <p className="text-xl py-2 px-3">About Us</p>
                 </Link>
             </div>
