@@ -1,12 +1,12 @@
 import HeaderBar from '../../../components/headerBar.tsx'
 
-function News() {
+function NewsJP() {
     return (
         <div>
-            <HeaderBar />
+            <HeaderBar language="jp" />
             <p>News page</p>
         </div>
     )
 }
 
-export default News
+export default NewsJP

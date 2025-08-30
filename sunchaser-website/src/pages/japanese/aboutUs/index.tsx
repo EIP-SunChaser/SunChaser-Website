@@ -1,12 +1,12 @@
 import HeaderBar from '../../../components/headerBar.tsx'
 
-function AboutUs() {
+function AboutUsJP() {
     return (
         <div>
-            <HeaderBar />
+            <HeaderBar language="jp" />
             <p>About us page</p>
         </div>
     )
 }
 
-export default AboutUs
+export default AboutUsJP

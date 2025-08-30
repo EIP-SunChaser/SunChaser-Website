@@ -1,12 +1,12 @@
 import HeaderBar from '../../../components/headerBar.tsx'
 
-function Download() {
+function DownloadFR() {
     return (
         <div>
-            <HeaderBar />
+            <HeaderBar language="fr" />
             <section className="h-150 grid place-items-center bg-lime-100 text-lime-400">
                 <div className="text-center space-y-2">
-                    <p className="text-5xl font-bold">Dowload the alpha for free</p>
+                    <p className="text-5xl font-bold">Téléchargez l'alpha de notre jeu gratuitement</p>
                     <div>
                         <button>Windows</button>
                         <button className="mx-5">Linux</button>
@@ -18,4 +18,4 @@ function Download() {
     )
 }
 
-export default Download
+export default DownloadFR
