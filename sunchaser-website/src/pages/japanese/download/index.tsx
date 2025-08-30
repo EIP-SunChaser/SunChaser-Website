@@ -8,8 +8,12 @@ function DownloadJP() {
                 <div className="text-center space-y-2">
                     <p className="text-5xl font-bold">Dowload the alpha for free</p>
                     <div>
-                        <button>Windows</button>
-                        <button className="mx-5">Linux</button>
+                        <button>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser/releases/download/v0.0.7/SunChaser-v0.0.7-windows.zip'>Windows</a>
+                        </button>
+                        <button>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser/releases/download/v0.0.7/SunChaser-v0.0.7-linux.zip'>Linux</a>
+                        </button>
                         <button>MacOs</button>
                     </div>
                 </div>
