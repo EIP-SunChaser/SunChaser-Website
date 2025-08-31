@@ -4,7 +4,7 @@ function DownloadEN() {
     return (
         <div>
             <HeaderBar language="en" />
-            <section className="h-150 grid place-items-center bg-lime-100 text-lime-400">
+            <section className="h-150 grid place-items-center bg-white text-lime-400">
                 <div className="text-center space-y-2">
                     <p className="text-5xl font-bold">Dowload the alpha for free</p>
                     <div>

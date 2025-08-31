@@ -22,6 +22,8 @@ import NewsJP from './pages/japanese/news'
 
 import NotFoundPage from './components/notFoundPage.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Footer from './components/footer.tsx'
+
 
 const router = createBrowserRouter([
   /* English pages */
@@ -49,5 +51,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <Footer />
   </StrictMode>,
 )

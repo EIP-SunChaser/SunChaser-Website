@@ -2,22 +2,22 @@ import { Link } from "react-router-dom"
 
 function HeaderBar(props) {
     return (
-        <div className="flex justify-between bg-gray-800 h-18">
+        <div className="flex justify-between bg-black h-18">
             <div className="flex items-center">
                 <Link to={"/" + props.language + "/home"}>
-                    <p className="text-3xl py-2 px-3">SunChaser</p>
+                    <p className="text-3xl py-2 px-3 text-white">SunChaser</p>
                 </Link>
                 <Link to={"/" + props.language + "/home"}>
-                    <p className="text-xl py-2 px-3">Home</p>
+                    <p className="text-xl py-2 px-3 text-white">Home</p>
                 </Link>
                 <Link to={"/" + props.language + "/news"}>
-                    <p className="text-xl py-2 px-3">News</p>
+                    <p className="text-xl py-2 px-3 text-white">News</p>
                 </Link>
                 <Link to={"/" + props.language + "/download"}>
-                    <p className="text-xl py-2 px-3">Downloads</p>
+                    <p className="text-xl py-2 px-3 text-white">Downloads</p>
                 </Link>
                 <Link to={"/" + props.language + "/aboutus"}>
-                    <p className="text-xl py-2 px-3">About Us</p>
+                    <p className="text-xl py-2 px-3 text-white">About Us</p>
                 </Link>
             </div>
             <div className="flex items-center">
@@ -27,7 +27,7 @@ function HeaderBar(props) {
                         fill="none" viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        className="size-6"
+                        className="size-6 text-white"
                         >
                         <path
                             stroke-linecap="round"
