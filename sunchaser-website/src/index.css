@@ -1,4 +1,19 @@
+@font-face {
+  font-family: Oswald;
+  src: url("src/assets/fonts/Oswald-Regular.ttf");
+}
+
+@font-face {
+  font-family: Oswald_Bold;
+  src: url("src/assets/fonts/Oswald-Bold.ttf");
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-oswald: Oswald, "sans-serif";
+  --font-oswald-bold: Oswald_Bold, "sans-serif";
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

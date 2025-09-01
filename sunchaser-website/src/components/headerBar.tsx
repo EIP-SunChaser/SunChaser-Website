@@ -5,19 +5,19 @@ function HeaderBar() {
         <div className="flex justify-between bg-black h-18">
             <div className="flex items-center">
                 <Link to={"/home"}>
-                    <p className="text-3xl py-2 px-3 text-white">SunChaser</p>
+                    <p className="font-oswald-bold text-3xl py-2 px-3 text-white">SunChaser</p>
                 </Link>
                 <Link to={"/home"}>
-                    <p className="text-xl py-2 px-3 text-white">Home</p>
+                    <p className="font-oswald text-xl py-2 px-3 text-white">Home</p>
                 </Link>
                 <Link to={"/news"}>
-                    <p className="text-xl py-2 px-3 text-white">News</p>
+                    <p className="font-oswald text-xl py-2 px-3 text-white">News</p>
                 </Link>
                 <Link to={"/download"}>
-                    <p className="text-xl py-2 px-3 text-white">Downloads</p>
+                    <p className="font-oswald text-xl py-2 px-3 text-white">Downloads</p>
                 </Link>
                 <Link to={"/aboutus"}>
-                    <p className="text-xl py-2 px-3 text-white">About Us</p>
+                    <p className="font-oswald text-xl py-2 px-3 text-white">About Us</p>
                 </Link>
             </div>
             <div className="flex items-center">
