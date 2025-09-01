@@ -1,15 +1,15 @@
-import HeaderBar from '../../../components/headerBar.tsx'
+import HeaderBar from '../../components/headerBar.tsx'
 
-function AboutUsEN() {
+function AboutUs() {
     return (
         <div>
-            <HeaderBar language="en" />
+            <HeaderBar />
             <section className="h-150 flex items-center justify-center bg-white text-black gap-10 px-10">
                 <img src="/sacabam.png" alt="Logo" className="w-50 h-auto object-contain" />
                 <div className="space-y-6 max-w-xl">
                     <p className="text-5xl font-bold">Who are we ?</p>
                     <p className="text-xl">
-                        [notre nom de studio] was founded in 2024 by four friends to create one game.
+                        Sacabam studio was founded in 2024 by four friends to create one game.
                         Our objective is to create a game that can send a message for the planet
                         and build a fun and interesting universe for all the players.
                     </p>
@@ -41,4 +41,4 @@ function AboutUsEN() {
     )
 }
 
-export default AboutUsEN
+export default AboutUs

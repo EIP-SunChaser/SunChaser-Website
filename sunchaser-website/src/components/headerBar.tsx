@@ -1,22 +1,22 @@
 import { Link } from "react-router-dom"
 
-function HeaderBar(props) {
+function HeaderBar() {
     return (
         <div className="flex justify-between bg-black h-18">
             <div className="flex items-center">
-                <Link to={"/" + props.language + "/home"}>
+                <Link to={"/home"}>
                     <p className="text-3xl py-2 px-3 text-white">SunChaser</p>
                 </Link>
-                <Link to={"/" + props.language + "/home"}>
+                <Link to={"/home"}>
                     <p className="text-xl py-2 px-3 text-white">Home</p>
                 </Link>
-                <Link to={"/" + props.language + "/news"}>
+                <Link to={"/news"}>
                     <p className="text-xl py-2 px-3 text-white">News</p>
                 </Link>
-                <Link to={"/" + props.language + "/download"}>
+                <Link to={"/download"}>
                     <p className="text-xl py-2 px-3 text-white">Downloads</p>
                 </Link>
-                <Link to={"/" + props.language + "/aboutus"}>
+                <Link to={"/aboutus"}>
                     <p className="text-xl py-2 px-3 text-white">About Us</p>
                 </Link>
             </div>

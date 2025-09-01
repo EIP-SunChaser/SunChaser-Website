@@ -4,7 +4,7 @@ function NotFoundPage() {
     return (
         <div>
             <h1>Not Found Page</h1>
-            <Link to={"/en/home"}>
+            <Link to={"/home"}>
                 <button>Go back Home</button>
             </Link>
         </div>
