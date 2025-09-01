@@ -2,9 +2,11 @@ import HeaderBar from '../../components/headerBar.tsx'
 
 function News() {
     return (
-        <div>
+        <div className='h-screen'>
             <HeaderBar />
-            <p>News page</p>
+            <div>
+                <p>News page</p>
+            </div>
         </div>
     )
 }

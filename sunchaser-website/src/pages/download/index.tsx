@@ -2,9 +2,9 @@ import HeaderBar from '../../components/headerBar.tsx'
 
 function Download() {
     return (
-        <div>
+        <div className='h-screen'>
             <HeaderBar />
-            <section className="h-150 grid place-items-center bg-white text-lime-400">
+            <section className="h-screen grid place-items-center bg-white text-lime-400">
                 <div className="text-center space-y-2">
                     <p className="text-5xl font-bold">Dowload the alpha for free</p>
                     <div>
