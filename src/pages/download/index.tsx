@@ -9,10 +9,10 @@ function Download() {
                     <p className="font-oswald-bold text-5xl">Dowload the alpha for free</p>
                     <div>
                         <button>
-                            <a href='https://github.com/EIP-SunChaser/SunChaser/releases/download/v0.0.7/SunChaser-v0.0.7-windows.zip'>Windows</a>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7/SunChaser-v0.0.7-windows.zip'>Windows</a>
                         </button>
                         <button>
-                            <a href='https://github.com/EIP-SunChaser/SunChaser/releases/download/v0.0.7/SunChaser-v0.0.7-linux.zip'>Linux</a>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7/SunChaser-v0.0.7-linux.zip'>Linux</a>
                         </button>
                         <button>MacOs</button>
                     </div>
