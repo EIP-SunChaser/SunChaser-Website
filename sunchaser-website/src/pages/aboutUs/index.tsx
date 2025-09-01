@@ -25,13 +25,13 @@ function AboutUs() {
                 <div className="text-center space-y-2">
                     <p className="font-oswald-bold text-5xl py-10">Socials</p>
                     <div className="flex items-center justify-center gap-10">
-                        <a href='https://discord.gg/h63gQUYfcA'>
+                        <a href='https://discord.gg/h63gQUYfcA' target="_blank">
                             <img className="w-15 h-auto" src='/discordLogo.png'></img>
                         </a>
-                        <a href='https://www.reddit.com/user/Sea-Principle6716/'>
+                        <a href='https://www.reddit.com/user/Sea-Principle6716/' target="_blank">
                             <img className="w-15 h-auto" src='/redditLogo.png'></img>
                         </a>
-                        <a href='https://bsky.app/profile/sunchasergame.bsky.social'>
+                        <a href='https://bsky.app/profile/sunchasergame.bsky.social' target="_blank">
                             <img className="w-15 h-auto" src='/blueskyLogo.png'></img>
                         </a>
                     </div>
