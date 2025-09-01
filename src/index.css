@@ -1,11 +1,11 @@
 @font-face {
   font-family: Oswald;
-  src: url("src/assets/fonts/Oswald-Regular.ttf");
+  src: url("/fonts/Oswald-Regular.ttf");
 }
 
 @font-face {
   font-family: Oswald_Bold;
-  src: url("src/assets/fonts/Oswald-Bold.ttf");
+  src: url("/fonts/Oswald-Bold.ttf");
 }
 
 @import "tailwindcss";
