@@ -14,20 +14,22 @@ function HeaderBar() {
 							<p className="font-oswald-bold text-3xl py-2 px-1 sm:px-3 md:px-0 text-white">SunChaser</p>
 						</Link>
 					</div>
-					<nav className="hidden md:flex items-center md:ml-2">
-						<Link to={"/home"}>
-							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Home</p>
-						</Link>
-						{/*<Link to={"/news"}>
-							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">News</p>
-						</Link>*/}
-						<Link to={"/download"}>
-							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Downloads</p>
-						</Link>
-						<Link to={"/aboutus"}>
-							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">About Us</p>
-						</Link>
-						<Globe className="text-white"/>
+					<nav className="hidden md:flex items-center justify-between md:ml-2 w-full">
+						<div className="flex items-center gap-3">
+							<Link to={"/home"}>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Home</p>
+							</Link>
+							{/* <Link to={"/news"}>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">News</p>
+							</Link> */}
+							<Link to={"/download"}>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Downloads</p>
+							</Link>
+							<Link to={"/aboutus"}>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">About Us</p>
+							</Link>
+						</div>
+						<Globe className="text-white cursor-pointer" />
 					</nav>
 
 					<div className="flex items-center md:hidden">
