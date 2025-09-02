@@ -18,8 +18,8 @@ function Home() {
         <video className="absolute top-0 left-0 w-full h-full object-cover" src="/campVideo.mp4" autoPlay loop muted playsInline></video>
         <div className="absolute top-0 left-0 w-full h-full"></div>
         <div className="relative text-center space-y-3 px-4">
-          <p className="font-oswald-bold text-4xl sm:text-5xl md:text-6xl transition-transform duration-300 hover:scale-110">SunChaser</p>
-          <p className="font-oswald text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
+          <p className="font-oswald-bold text-4xl sm:text-5xl md:text-6xl transition-transform duration-300 hover:scale-110 cursor-default">SunChaser</p>
+          <p className="font-oswald text-base sm:text-lg md:text-xl max-w-3xl mx-auto cursor-default">
             SunChaser, a game where you can save the world in a solarpunk universe !
           </p>
         </div>
