@@ -39,10 +39,9 @@ function Home() {
             {/* --- Solar zone --- */}
             <CarouselItem key="solar zone">
               <ZoneItem
-                titre="Solar Zone" 
-                description="Sacabam studio was founded in 2024 by four friends to create one game.
-                  Our objective is to create a game that can send a message for the planet
-                  and build a fun and interesting universe for all the players."
+                titre="Sun Forest" 
+                description="In this living and fabulous forest, people live by using solar power to create energy.
+                  You can find different villages, small forests, and a large power station. But stay alert... bandits lurk in the shadows."
                 image="/solarZone.png" />
             </CarouselItem>
 
@@ -50,19 +49,17 @@ function Home() {
             <CarouselItem key="wind zone">
               <ZoneItem
                 titre="Wind Zone" 
-                description="Sacabam studio was founded in 2024 by four friends to create one game.
-                  Our objective is to create a game that can send a message for the planet
-                  and build a fun and interesting universe for all the players."
+                description="A large region focused on wind energy. You will travel between different islands by boat to meet new people and party.
+                  Every activity feels like a big celebration!"
                 image="/windZone.png" />
             </CarouselItem>
 
             {/* --- Thermo zone --- */}
             <CarouselItem key="thermo zone">
               <ZoneItem
-                titre="Thermo Zone" 
-                description="Sacabam studio was founded in 2024 by four friends to create one game.
-                  Our objective is to create a game that can send a message for the planet
-                  and build a fun and interesting universe for all the players."
+                titre="Train Valley" 
+                description="A hot and dry desert where only robots can work. In this western-style region, your car will be your best friend.
+                  Watch out for sunburn!"
                 image="/thermoZone.png" />
             </CarouselItem>
           </CarouselContent>
