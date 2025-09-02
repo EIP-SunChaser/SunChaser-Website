@@ -21,7 +21,7 @@ function AboutUs() {
                 <p className="font-oswald text-xl ">SunChaser, a game where you can save the world in a solarpunk universe !</p>
                 </div>
             </section>
-            <section className="h-150 grid place-items-center bg-white text-black">
+            <section className="h-100 grid place-items-center bg-white text-black">
                 <div className="text-center space-y-2">
                     <p className="font-oswald-bold text-5xl py-10">Socials</p>
                     <div className="flex items-center justify-center gap-10">

@@ -17,9 +17,9 @@ function HeaderBar() {
 						<Link to={"/home"}>
 							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Home</p>
 						</Link>
-						<Link to={"/news"}>
+						{/*<Link to={"/news"}>
 							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">News</p>
-						</Link>
+						</Link>*/}
 						<Link to={"/download"}>
 							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Downloads</p>
 						</Link>
