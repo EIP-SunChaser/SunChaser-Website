@@ -25,7 +25,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="h-150 flex items-center bg-white text-black px-10">
+      <section className="h-150 flex items-center justify-center bg-white text-black px-10">
         <Carousel
           plugins={[
             Autoplay({
@@ -33,7 +33,7 @@ function Home() {
               stopOnInteraction: true,
             }),
           ]}
-          className="w-full"
+          className="w-[95%]"
         >
           <CarouselContent>
             {/* --- Solar zone --- */}
