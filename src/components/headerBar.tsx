@@ -61,7 +61,7 @@ function HeaderBar() {
 						<Link onClick={() => setIsMenuOpen(false)} to={"/download"}>
 							<p className="font-oswald text-lg py-2 text-white">{t('header.downloads')}</p>
 						</Link>
-						<Link onClick={() => setIsMenuOpen(false)} to={"/aboutus"}>
+						<Link onClick={() => setIsMenuOpen(false)} to={"/about-us"}>
 							<p className="font-oswald text-lg py-2 text-white">{t('header.aboutUs')}</p>
 						</Link>
 						<div className="py-2">
