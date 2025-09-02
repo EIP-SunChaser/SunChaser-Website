@@ -32,6 +32,7 @@ const resources = {
       
       'notFound.title': 'Page Not Found',
       'notFound.backHome': 'Back to Home',
+      'notFound.description': 'Looks like you\'ve wandered off the beaten path in our solarpunk universe!',
       
       'language.english': 'English',
       'language.french': 'Français',
@@ -67,6 +68,7 @@ const resources = {
       
       'notFound.title': 'Page Non Trouvée',
       'notFound.backHome': 'Retour à l\'Accueil',
+      'notFound.description': 'Il semble que vous ayez dévié du chemin dans notre univers solarpunk !',
       
       'language.english': 'English',
       'language.french': 'Français',
