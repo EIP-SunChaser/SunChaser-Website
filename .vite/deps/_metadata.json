@@ -1,0 +1,49 @@
+{
+  "hash": "43a357f7",
+  "configHash": "9982127b",
+  "lockfileHash": "e0ac5170",
+  "browserHash": "3b2daca2",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "c68c208b",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4ef1ccef",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "71cb5302",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "0f3b0273",
+      "needsInterop": false
+    },
+    "embla-carousel-autoplay": {
+      "src": "../../node_modules/embla-carousel-autoplay/esm/embla-carousel-autoplay.esm.js",
+      "file": "embla-carousel-autoplay.js",
+      "fileHash": "cebe84af",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IIT576ZH": {
+      "file": "chunk-IIT576ZH.js"
+    },
+    "chunk-3VDXVL42": {
+      "file": "chunk-3VDXVL42.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
