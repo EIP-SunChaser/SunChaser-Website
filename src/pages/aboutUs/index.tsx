@@ -5,7 +5,7 @@ function AboutUs() {
         <div>
             <HeaderBar />
             <section className="h-150 flex items-center justify-center bg-white text-black gap-10 px-10">
-                <img src="/sacabam.png" alt="Logo" className="w-50 h-auto object-contain" />
+                <img src="/sacabam.png" alt="Logo" className="w-60 h-auto object-contain" />
                 <div className="space-y-6 max-w-xl">
                     <p className="font-oswald-bold text-5xl">Who are we ?</p>
                     <p className="font-oswald text-xl">
