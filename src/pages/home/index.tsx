@@ -1,4 +1,5 @@
 import HeaderBar from '../../components/headerBar.tsx'
+import ZoneItem from "../../components/zoneItem.tsx"
 import Autoplay from "embla-carousel-autoplay"
 
 import {
@@ -29,6 +30,7 @@ function Home() {
           plugins={[
             Autoplay({
               delay: 4000,
+              stopOnInteraction: true,
             }),
           ]}
           className="w-full"
@@ -36,47 +38,32 @@ function Home() {
           <CarouselContent>
             {/* --- Solar zone --- */}
             <CarouselItem key="solar zone">
-              <div className="flex items-center justify-between gap-10 w-full max-w-5xl mx-auto">
-                <div className="space-y-6 max-w-xl">
-                  <p className="font-oswald-bold text-5xl">Solar zone</p>
-                  <p className="font-oswald text-xl">
-                    Sacabam studio was founded in 2024 by four friends to create one game.
-                    Our objective is to create a game that can send a message for the planet
-                    and build a fun and interesting universe for all the players.
-                  </p>
-                </div>
-                <img src="/solarZone.png" alt="Logo" className="w-75 h-auto object-contain rounded-full" />
-              </div>
+              <ZoneItem
+                titre="Solar Zone" 
+                description="Sacabam studio was founded in 2024 by four friends to create one game.
+                  Our objective is to create a game that can send a message for the planet
+                  and build a fun and interesting universe for all the players."
+                image="/solarZone.png" />
             </CarouselItem>
 
             {/* --- Wind zone --- */}
             <CarouselItem key="wind zone">
-              <div className="flex items-center justify-between gap-10 w-full max-w-5xl mx-auto">
-                <div className="space-y-6 max-w-xl">
-                  <p className="font-oswald-bold text-5xl">Wind zone</p>
-                  <p className="font-oswald text-xl">
-                    Sacabam studio was founded in 2024 by four friends to create one game.
-                    Our objective is to create a game that can send a message for the planet
-                    and build a fun and interesting universe for all the players.
-                  </p>
-                </div>
-                <img src="/solarZone.png" alt="Logo" className="w-75 h-auto object-contain rounded-full" />
-              </div>
+              <ZoneItem
+                titre="Wind Zone" 
+                description="Sacabam studio was founded in 2024 by four friends to create one game.
+                  Our objective is to create a game that can send a message for the planet
+                  and build a fun and interesting universe for all the players."
+                image="/windZone.png" />
             </CarouselItem>
 
             {/* --- Thermo zone --- */}
             <CarouselItem key="thermo zone">
-              <div className="flex items-center justify-between gap-10 w-full max-w-5xl mx-auto">
-                <div className="space-y-6 max-w-xl">
-                  <p className="font-oswald-bold text-5xl">Thermo zone</p>
-                  <p className="font-oswald text-xl">
-                    Sacabam studio was founded in 2024 by four friends to create one game.
-                    Our objective is to create a game that can send a message for the planet
-                    and build a fun and interesting universe for all the players.
-                  </p>
-                </div>
-                <img src="/solarZone.png" alt="Logo" className="w-75 h-auto object-contain rounded-full" />
-              </div>
+              <ZoneItem
+                titre="Thermo Zone" 
+                description="Sacabam studio was founded in 2024 by four friends to create one game.
+                  Our objective is to create a game that can send a message for the planet
+                  and build a fun and interesting universe for all the players."
+                image="/thermoZone.png" />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
