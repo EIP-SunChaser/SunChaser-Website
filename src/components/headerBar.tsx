@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import { Globe } from 'lucide-react';
 
 function HeaderBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,6 +27,7 @@ function HeaderBar() {
 						<Link to={"/aboutus"}>
 							<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">About Us</p>
 						</Link>
+						<Globe className="text-white"/>
 					</nav>
 
 					<div className="flex items-center md:hidden">
@@ -58,6 +60,7 @@ function HeaderBar() {
 						<Link onClick={() => setIsMenuOpen(false)} to={"/aboutus"}>
 							<p className="font-oswald text-lg py-2 text-white">About Us</p>
 						</Link>
+						<Globe className="text-white"/>
 					</nav>
 				</div>
 			)}
