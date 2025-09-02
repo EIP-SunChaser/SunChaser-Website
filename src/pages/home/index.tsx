@@ -8,20 +8,24 @@ function Home() {
         <video className="absolute top-0 left-0 w-full h-full object-cover" src="/campVideo.mp4" autoPlay loop muted playsInline></video>
         <div className="absolute top-0 left-0 w-full h-full"></div>
         <div className="relative text-center space-y-3 px-4">
-          <p className="font-oswald-bold text-4xl sm:text-5xl md:text-6xl">SunChaser</p>
+          <p className="font-oswald-bold text-4xl sm:text-5xl md:text-6xl transition-transform duration-300 hover:scale-110">SunChaser</p>
           <p className="font-oswald text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
             SunChaser, a game where you can save the world in a solarpunk universe !
           </p>
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 lg:py-28 grid place-items-center bg-white text-black">
-        <div className="text-center space-y-3 px-4">
-          <p className="font-oswald-bold text-3xl sm:text-4xl md:text-5xl font-bold">Zones</p>
-          <p className="font-oswald text-base sm:text-lg md:text-xl">noms des zones</p>
+      <section className="h-150 flex items-center justify-center bg-white text-black gap-10 px-10">
+        <div className="space-y-6 max-w-xl">
+          <p className="font-oswald-bold text-5xl">Solar zone</p>
+          <p className="font-oswald text-xl">
+            Sacabam studio was founded in 2024 by four friends to create one game.
+            Our objective is to create a game that can send a message for the planet
+            and build a fun and interesting universe for all the players.
+          </p>
         </div>
+        <img src="/solarZone.png" alt="Logo" className="w-75 h-auto object-contain rounded-full" />
       </section>
-
     </div>
   )
 }
