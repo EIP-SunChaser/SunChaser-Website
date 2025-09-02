@@ -5,7 +5,7 @@ function AboutUs() {
     return (
         <div>
             <section className="h-150 flex flex-col md:flex-row items-center justify-center bg-white text-black gap-6 md:gap-10 px-4 md:px-10 py-8 md:py-0">
-                <img src="/sacabam.svg" alt="Logo" className="w-32 md:w-60 h-auto object-contain" />
+                <img src="/sacabam.svg" alt="Logo" className="w-32 md:w-60 h-auto object-contain rounded-lg" />
                 <div className="space-y-4 md:space-y-6 max-w-xl text-center md:text-left">
                     <p className="font-oswald-bold text-3xl md:text-5xl">{t('about.title')}</p>
                     <p className="font-oswald text-lg md:text-xl whitespace-pre-line">
