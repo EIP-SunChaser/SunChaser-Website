@@ -1,11 +1,12 @@
-import HeaderBar from '../../components/headerBar.tsx'
+import { useTranslation } from 'react-i18next';
 
 function News() {
+    const { t } = useTranslation();
+    
     return (
         <div className='h-screen'>
-            <HeaderBar />
             <div>
-                <p>News page</p>
+                <p>{t('news.title')}</p>
             </div>
         </div>
     )
