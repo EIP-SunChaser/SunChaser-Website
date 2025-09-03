@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <div>
-      <section className="relative min-h-[60vh] sm:min-h-[70vh] lg:min-h-[85vh] grid place-items-center text-white">
+      <section className="relative min-h-[60vh] sm:min-h-[70vh] lg:min-h-[95vh] grid place-items-center text-white">
         <video className="absolute top-0 left-0 w-full h-full object-cover" src="/campVideo.mp4" autoPlay loop muted playsInline></video>
         <div className="absolute top-0 left-0 w-full h-full"></div>
         <div className="relative text-center space-y-3 px-4">
