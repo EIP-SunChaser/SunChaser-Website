@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import { Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 function HeaderBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
+	const { t } = useTranslation();
 
 	return (
 		<header className="bg-black">
@@ -17,19 +19,19 @@ function HeaderBar() {
 					<nav className="hidden md:flex items-center justify-between md:ml-2 w-full">
 						<div className="flex items-center gap-3">
 							<Link to={"/home"}>
-								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Home</p>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">{t('header.home')}</p>
 							</Link>
 							{/* <Link to={"/news"}>
-								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">News</p>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">{t('header.news')}</p>
 							</Link> */}
 							<Link to={"/download"}>
-								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">Downloads</p>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">{t('header.downloads')}</p>
 							</Link>
-							<Link to={"/aboutus"}>
-								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">About Us</p>
+							<Link to={"/about-us"}>
+								<p className="font-oswald text-lg lg:text-xl py-2 px-3 text-white">{t('header.aboutUs')}</p>
 							</Link>
 						</div>
-						<Globe className="text-white cursor-pointer" />
+						<LanguageSwitcher />
 					</nav>
 
 					<div className="flex items-center md:hidden">
@@ -51,18 +53,20 @@ function HeaderBar() {
 				<div className="md:hidden border-t border-white/10">
 					<nav className="px-3 py-2 space-y-1">
 						<Link onClick={() => setIsMenuOpen(false)} to={"/home"}>
-							<p className="font-oswald text-lg py-2 text-white">Home</p>
+							<p className="font-oswald text-lg py-2 text-white">{t('header.home')}</p>
 						</Link>
-						<Link onClick={() => setIsMenuOpen(false)} to={"/news"}>
-							<p className="font-oswald text-lg py-2 text-white">News</p>
-						</Link>
+						{/* <Link onClick={() => setIsMenuOpen(false)} to={"/news"}>
+							<p className="font-oswald text-lg py-2 text-white">{t('header.news')}</p>
+						</Link> */}
 						<Link onClick={() => setIsMenuOpen(false)} to={"/download"}>
-							<p className="font-oswald text-lg py-2 text-white">Downloads</p>
+							<p className="font-oswald text-lg py-2 text-white">{t('header.downloads')}</p>
 						</Link>
-						<Link onClick={() => setIsMenuOpen(false)} to={"/aboutus"}>
-							<p className="font-oswald text-lg py-2 text-white">About Us</p>
+						<Link onClick={() => setIsMenuOpen(false)} to={"/about-us"}>
+							<p className="font-oswald text-lg py-2 text-white">{t('header.aboutUs')}</p>
 						</Link>
-						<Globe className="text-white"/>
+						<div className="py-2">
+							<LanguageSwitcher />
+						</div>
 					</nav>
 				</div>
 			)}

@@ -1,9 +1,13 @@
+import { useTranslation } from 'react-i18next';
+
 function Footer() {
+    const { t } = useTranslation();
+    
     return (
         <footer className="bg-black text-white">
             <div className="mx-auto max-w-7xl sm:py-8">
 
-                <p className="text-center text-sm sm:text-base font-oswald cursor-default">A futur indie game studio</p>
+                <p className="text-center text-sm sm:text-base font-oswald cursor-default">{t('footer.copyright')}</p>
 
                 <div className="flex items-center justify-center gap-10 py-5">
                     <a href='https://discord.gg/h63gQUYfcA' target="_blank">
