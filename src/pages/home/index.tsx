@@ -26,7 +26,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="h-150 flex items-center justify-center bg-white text-black px-10">
+      <section className="h-150 flex items-center justify-center bg-white text-black px-20">
         <Carousel
           plugins={[
             Autoplay({
@@ -34,24 +34,23 @@ function Home() {
               stopOnInteraction: true,
             }),
           ]}
-          className="w-[95%]"
         >
           <CarouselContent>
             <CarouselItem key="solar zone">
               <ZoneItem
-                titre={t('zone.solar.title')} 
+                title={t('zone.solar.title')}
                 description={t('zone.solar.description')}
                 image="/solarZone.png" />
             </CarouselItem>
             <CarouselItem key="wind zone">
               <ZoneItem
-                titre={t('zone.wind.title')} 
+                title={t('zone.wind.title')}
                 description={t('zone.wind.description')}
                 image="/windZone.png" />
             </CarouselItem>
             <CarouselItem key="thermo zone">
               <ZoneItem
-                titre={t('zone.thermo.title')} 
+                title={t('zone.thermo.title')}
                 description={t('zone.thermo.description')}
                 image="/thermoZone.png" />
             </CarouselItem>
