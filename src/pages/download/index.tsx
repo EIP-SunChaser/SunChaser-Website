@@ -19,12 +19,14 @@ function Download() {
                     <p className="font-oswald-bold text-5xl">{t('download.title')}</p>
                     <div className="flex justify-center gap-4">
                         <button>
-                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7/SunChaser-v0.0.7-windows.zip'>Windows</a>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7.5/SunChaser-v0.0.7.5-windows.zip'>Windows</a>
                         </button>
                         <button>
-                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7/SunChaser-v0.0.7-linux.zip'>Linux</a>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7.5/SunChaser-v0.0.7.5-linux.zip'>Linux</a>
                         </button>
-                        <button>MacOS</button>
+                        <button>
+                            <a href='https://github.com/EIP-SunChaser/SunChaser-Releases/releases/download/v0.0.7.5/SunChaser-v0.0.7.5-macos.zip'>MacOS</a>
+                        </button>
                     </div>
                 </div>
             </section>
